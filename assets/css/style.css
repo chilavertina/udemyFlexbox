@@ -18,7 +18,7 @@ html{
 }
 
 body{
-    font-size: 1.6em;
+    font-size: 1.6rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     line-height: 1.6;
@@ -33,4 +33,63 @@ body{
 
 .text-dark{
     color: var(--color-dark);
+}
+
+/* Layout - building blocks */
+.flex-grid{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    width: 98%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+/* Reusable components */
+
+.card{
+    padding: 2.5rem 3rem;
+    background-color: white;
+    border-radius: .8rem;
+}
+
+/* Main header */
+
+.header{
+    margin-top: 1.8rem;
+}
+
+.header-title{
+    font-family: 'Lobster', cursive;
+    font-size: 6.5rem;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+}
+
+.header-img{
+    width: 100%;
+}
+
+/* Media queries */
+
+/* Ovo je deo u kodu koji zapravo definise kako ce stranica izgledati na dekstopu, a kako na mobilnom telefonu */
+@media(min-width: 56.25em){
+    .flex-grid{
+        flex-direction: row;
+    }
+
+    .col{
+        flex: 1;
+    }
+
+    .header-img{
+        max-width: 35rem;
+    }
+
+    .header-title{
+        font-size: 12rem;
+        margin-bottom: 2.5rem;
+    }
 }
