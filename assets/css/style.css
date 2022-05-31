@@ -35,6 +35,10 @@ body{
     color: var(--color-dark);
 }
 
+.text-center{
+    text-align: center;
+}
+
 /* Layout - building blocks */
 .flex-grid{
     display: flex;
@@ -55,6 +59,38 @@ body{
     border-radius: .8rem;
 }
 
+.badge{
+    padding: .5rem 1.2rem;
+    display: inline-block;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.badge-primary{
+    background-color: var(--color-primary);
+}
+
+.btn{
+    display: inline-block;
+    padding: .5rem 1.2rem;
+    border: none;
+    color: currentColor;
+    cursor: pointer;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: inherit;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.btn-primary{
+    background-color: var(--color-primary);
+}
+
+.btn:focus{
+    outline: none;
+}
 /* Main header */
 
 .header{
