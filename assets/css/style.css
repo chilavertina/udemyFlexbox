@@ -93,7 +93,7 @@ body{
 }
 /* Main header */
 
-.header{
+.header, .info{
     margin-top: 1.8rem;
 }
 
