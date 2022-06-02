@@ -93,7 +93,7 @@ body{
 }
 /* Main header */
 
-.header, .info{
+.header, .info, .info-action{
     margin-top: 1.8rem;
 }
 
@@ -135,5 +135,11 @@ body{
     .header-title{
         font-size: 12rem;
         margin-bottom: 2.5rem;
+    }
+
+    .info-action{
+        max-width: 36rem;
+        margin-top: 0;
+        margin-left: 2.4rem;
     }
 }
