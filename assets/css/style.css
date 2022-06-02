@@ -151,6 +151,11 @@ body{
         padding: 1.4rem;
     }
 
+    .feature-list{
+        margin-left: 1.6rem;
+        font-size: 1.4rem;
+    }
+
     .info-action{
         max-width: 36rem;
         margin-top: 0;
