@@ -181,6 +181,10 @@ body{
         font-weight: 300;
     }
 
+    .form-input:focus{
+        outline: none;
+    }
+
     .info-action{
         max-width: 36rem;
         margin-top: 0;
