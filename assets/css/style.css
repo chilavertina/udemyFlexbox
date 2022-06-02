@@ -136,6 +136,16 @@ body{
         font-size: 12rem;
         margin-bottom: 2.5rem;
     }
+    
+    .intro-img{
+        margin-left: 2rem;
+    }
+
+    .feature-btn{
+        margin: 2rem 0;
+        width: 100%;
+        padding: 1.4rem;
+    }
 
     .info-action{
         max-width: 36rem;
