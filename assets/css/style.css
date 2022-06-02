@@ -156,6 +156,10 @@ body{
         font-size: 1.4rem;
     }
 
+    .feature-list-item:not(:first-child){
+        margin-top: ;
+    }
+
     .info-action{
         max-width: 36rem;
         margin-top: 0;
