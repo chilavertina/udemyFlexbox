@@ -108,6 +108,10 @@ body{
     width: 100%;
 }
 
+.intro-text{
+    margin-top: 1.8rem;
+}
+
 .intro-img{
     max-width: 35rem;
 }
