@@ -141,6 +141,10 @@ body{
         margin-left: 2rem;
     }
 
+    .feature-title{
+        font-size: 5rem;
+    }
+
     .feature-btn{
         margin: 2rem 0;
         width: 100%;
