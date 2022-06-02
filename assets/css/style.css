@@ -108,6 +108,10 @@ body{
     width: 100%;
 }
 
+.intro-img{
+    max-width: 35rem;
+}
+
 /* Media queries */
 
 /* Ovo je deo u kodu koji zapravo definise kako ce stranica izgledati na dekstopu, a kako na mobilnom telefonu */
