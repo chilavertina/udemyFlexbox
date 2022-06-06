@@ -118,6 +118,8 @@ body{
     width: 100%;
 }
 
+/* Main */
+
 .intro-text{
     margin-top: 1.8rem;
 }
@@ -126,10 +128,124 @@ body{
     max-width: 35rem;
 }
 
+.feature-title{
+    font-size: 5rem;
+}
+
+.feature-btn{
+    margin: 2rem 0;
+    width: 100%;
+    padding: 1.4rem;
+}
+
+.feature-list{
+    margin-left: 1.6rem;
+    font-size: 1.4rem;
+}
+
+.feature-list-item:not(:first-child){
+    margin-top: ;
+}
+
+.footer{
+    background-color: #f5f5f5;
+    padding: 6rem;
+}
+
+.form-container{
+    background-color: white;
+    max-width: 43rem;
+    width: 100%;
+    display: flex;
+    box-shadow: 0 1px 14px 0 rgba(0,0,0,.08);
+    border-radius: 4px;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.form-input{
+    background-color: white;
+    border: none;
+    padding: 1.4rem;
+    flex: 1;
+    color: currentColor;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.form-input:focus{
+    outline: none;
+}
+
+
+.form-input::placeholder{
+    color: #cccccc;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+
+.patreon{
+    margin-top: 2.4rem;
+}
+
+.patreon-title, .social-title{
+    font-size: 1.3rem;
+    max-width: 37rem;
+    margin-bottom: 1rem;
+}
+
+.patreon-link{
+    box-shadow: 0 0 7px rgba(0,0,0,.1);
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+}
+
+.social-icon{
+    width: 2rem;
+}
+
+
+.social-link{
+    text-decoration: none;
+    background-color: #1DA1F2;
+    display: flex;
+    align-items: center;
+    padding: .5rem 1rem;
+    border-radius: .3rem;
+    max-width: 15rem;
+}
+
+.social-link--twitter{
+    flex: 1;
+    color: white;
+    box-shadow: 0 0 7px rgba(0,0,0,.1);
+}
+
+.social-caption{
+    margin-left: .5rem;
+    font-size: 1.4rem;
+}
+
+.social-footer{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--color-dark);
+    margin-top: 1.4rem;
+    display: inline-block;
+}
+
+.footer-socials{
+    margin-top: 2.4rem;
+}
+
 /* Media queries */
 
 /* Ovo je deo u kodu koji zapravo definise kako ce stranica izgledati na dekstopu, a kako na mobilnom telefonu */
 @media(min-width: 56.25em){
+   
     .flex-grid{
         flex-direction: row;
     }
@@ -151,114 +267,6 @@ body{
         margin-left: 2rem;
     }
 
-    .feature-title{
-        font-size: 5rem;
-    }
-
-    .feature-btn{
-        margin: 2rem 0;
-        width: 100%;
-        padding: 1.4rem;
-    }
-
-    .feature-list{
-        margin-left: 1.6rem;
-        font-size: 1.4rem;
-    }
-
-    .feature-list-item:not(:first-child){
-        margin-top: ;
-    }
-
-    .footer{
-        background-color: #f5f5f5;
-        padding: 6rem;
-    }
-
-    .form-container{
-        background-color: white;
-        max-width: 43rem;
-        width: 100%;
-        display: flex;
-        box-shadow: 0 1px 14px 0 rgba(0,0,0,0.8);
-        border-radius: 4px;
-        overflow: hidden;
-        flex-direction: column;
-    }
-
-    .form-input{
-        background-color: white;
-        border: none;
-        padding: 1.4rem;
-        flex: 1;
-        color: currentColor;
-        font-size: 1.6rem;
-        font-weight: 300;
-    }
-
-    .form-input:focus{
-        outline: none;
-    }
-
-
-    .form-input::placeholder{
-        color: #cccccc;
-        font-size: 1.4rem;
-        letter-spacing: 1px;
-    }
-
-    .patreon{
-        margin-top: 2.4rem;
-    }
-
-    .patreon-title, .social-title{
-        font-size: 1.3rem;
-        max-width: 37rem;
-        margin-bottom: 1rem;
-    }
-
-    .patreon-link{
-        box-shadow: 0 0 7px rgba(0,0,0,.1);
-    }
-
-    .social{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .social-icon{
-        width: 2rem;
-    }
-
-    .social-link{
-        text-decoration: none;
-        background-color: #1DA1F2;
-        display: flex;
-        align-items: center;
-        padding: .5rem 1rem;
-        border-radius: .3rem;
-        max-width: 15rem;
-    }
-
-    .social-link--twitter{
-        flex: 1;
-        color: white;
-        box-shadow: 0 0 7px rgba(0,0,0,.1);
-    }
-
-    .social-caption{
-        margin-left: .5rem;
-        font-size: 1.4rem;
-    }
-
-    .social-footer{
-        text-decoration: none;
-        font-size: 1.2rem;
-        color: var(--color-dark);
-        margin-top: 1.4rem;
-        display: inline-block;
-    }
-
     .info-action{
         max-width: 36rem;
         margin-top: 0;
@@ -273,4 +281,9 @@ body{
     .form-btn{
         margin: 0 1rem;
     }
+    
+    .footer-socials{
+        margin-top: 0;
+    }
+
 }
