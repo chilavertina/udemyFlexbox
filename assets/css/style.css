@@ -39,6 +39,16 @@ body{
     text-align: center;
 }
 
+.title{
+    color: var(--color-dark);
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+}
+
+.title-sm{
+    font-size: 1.6rem;
+}
+
 /* Layout - building blocks */
 .flex-grid{
     display: flex;
