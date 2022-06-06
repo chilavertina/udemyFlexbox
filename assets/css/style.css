@@ -103,7 +103,7 @@ body{
 }
 /* Main header */
 
-.header, .info, .info-action{
+.header, .info, .info-action, .footer{
     margin-top: 1.8rem;
 }
 
