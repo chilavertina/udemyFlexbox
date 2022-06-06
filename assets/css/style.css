@@ -207,6 +207,16 @@ body{
         letter-spacing: 1px;
     }
 
+    .patreon{
+        margin-top: 2.4rem;
+    }
+
+    .patreon-title{
+        font-size: 1.3rem;
+        max-width: 37rem;
+        margin-bottom: 1rem;
+    }
+    
     .info-action{
         max-width: 36rem;
         margin-top: 0;
